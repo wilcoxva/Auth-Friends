@@ -10,13 +10,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          <nav>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/login">Log In</Link></li>
-            <li><Link to="/friendsList">Friends List</Link></li>
-          </nav>
-        </header>
+        <nav>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/login">Log In</Link></li>
+          <li><Link to="/friendsList">Friends List</Link></li>
+        </nav>
         <Switch>
           <Route path="/login" component={Login} />
           <PrivateRoute exact path="/friendsList" component={FriendsList} />
