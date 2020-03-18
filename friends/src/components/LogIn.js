@@ -3,7 +3,6 @@ import axios from 'axios';
 
 const LogIn = (props) => {
 
-    const [isLoading, setIsLoading] = useState("");
     const [info, setInfo] = useState("");
 
     const handleChange = (e) => {

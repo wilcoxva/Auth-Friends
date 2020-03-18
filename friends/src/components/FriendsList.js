@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 import { axiosWithAuth } from '../utils/axiosWithAuth';
+import styled from 'styled-components';
 
 const FriendsList = () => {
 
